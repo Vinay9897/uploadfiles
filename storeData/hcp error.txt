@@ -1,0 +1,5 @@
+urlString ---> http://192.168.150.196:31000/solr/HCPInsight_Index_New
+
+HttpSolrClient --> org.apache.solr.client.solrj.impl.HttpSolrClient@2bba1ac6
+
+q=*:*&rows=100000

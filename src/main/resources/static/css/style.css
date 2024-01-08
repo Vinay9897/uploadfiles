@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin: 0;
+}
+.container{
+	text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 600px; /* Set a maximum width for the div */
+    margin: 0 auto;
+}
+
+.input {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.output {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+tr {
+	align:center;
+	border:2px;
+	border:black;
+	}
+
+td {
+   font-weight: bold;
+   border:2px;
+   border-color:black;
+   }
+
+@media only screen and (max-width: 600px) {
+    /* Apply styles for screens with a width of 600 pixels or less */
+    .container {
+        max-width: 100%; /* Allow the div to take up the full width on smaller screens */
+    }
+}
+

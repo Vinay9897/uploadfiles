@@ -1,5 +1,6 @@
 package com.upload;
 
+
 public class StorageFileNotFoundException extends StorageException {
 
 	public StorageFileNotFoundException(String message) {
